@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+}
+
+#page{
+    background-color: white;
+    border: black solid 1px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    min-height: 600px;
+}
+
+main strong{
+    display: block;
+
+    text-align: center;
+    font-size: x-large;
+}
+
+main form {
+    display: block;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+main textarea{
+    resize: none;
+}
+
+main form input{
+    display: block;
+    width: 300px;
+    height: 30px;
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#infoBlock{
+    display: block;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+table{
+    margin-top: 10px;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table th, td{
+    border: 1px solid black;
+}
+
+#tableBlock{
+    margin-bottom: 20px;
+}
+
+main h1{
+    text-align: center;
+}
+
+#tableBlock a{
+    font-size: x-large;
+    margin-left: 40px;
+}
